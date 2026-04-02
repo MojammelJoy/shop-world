@@ -1,10 +1,13 @@
+import Container from '@/components/Container';
+import { Button } from '@/components/ui/button';
 import React from 'react'
 
 const Home = () => {
   return (
-    <div className='text-xl font-semibold bg-shop_btn_dark_green'>
-      Home
-    </div>
+    <Container >
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, accusantium?</p>
+     <Button size="lg">CHECK OUT</Button>
+    </Container>
   )
 }
 
